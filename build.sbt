@@ -8,40 +8,4 @@ lazy val root = (project in file("."))
     idePackagePrefix := Some("io.hours.midnight")
   )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.12" % Test
